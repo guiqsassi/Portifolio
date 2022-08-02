@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+    <link rel="stylesheet" href="Portifolio.css">
+<body>
+
+    <div class="content">
+        <div class="header">
+            <div class="logo">
+            <button class="inicio">LOGO</button>
+            </div>
+            <div class="sobre">
+                <button class="inicio">SOBRE</button>
+            </div>
+        </div>
+
+        <div class="mid">
+        <div class="imagem">
+            <div class="tako"> 
+            <img src="takodachi-ina.gif" alt="">
+            </div>
+        </div>
+
+        <div class="login">
+            <div class="bg"> 
+            <h1>Login</h1>
+            <h2>Nome</h2>
+            <input id="nomeLogin" placeholder="Nome" type="text">
+            <h2>Senha</h2>
+            <input id="senhaLogin" type="password" placeholder="Senha"> <br>
+            <button class="logar" onclick="logar()"> Logar</button> <br>
+            <button class="cadastro" onclick="ShowModal()"> Cadastrar-se</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="left"> 
+            <div class="close">
+                <span onclick="HideModal()">&times;</span>
+            </div>
+            <div class="modal-img">
+                
+                <img class="imgIna" src="https://static.miraheze.org/hololivewiki/thumb/5/5e/Ninomae_Ina%27nis_-_Portrait_Mini.png/290px-Ninomae_Ina%27nis_-_Portrait_Mini.png" alt="">
+            </div>
+            </div>
+            <div class="cadastrar">
+                <h1>Cadastrar</h1>
+                
+                <h3>Email</h3>
+                <input id="Email" class="cadastro-inputs" type="text" placeholder="Email">
+                <h3>Nome</h3>
+                <input id="Username" class="cadastro-inputs" type="text" placeholder="Nome">
+                <h3>Senha</h3>
+                <input id="senha" class="cadastro-inputs" type="text" placeholder="Senha" >
+                <input id="confirmarSenha" class="cadastro-inputs" type="text" placeholder="Confimar senha"> <br>
+                
+                <button onclick="cadastroUsuario()" class="button-cadastro">Cadastrar-se</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Portifolio.js"></script>
+</body>
+</html>

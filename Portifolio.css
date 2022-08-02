@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(32, 0, 36) 0%, rgb(102, 9, 121) 35%, rgb(88, 7, 99) 100%);
+ 
+}
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.modal{
+    position: fixed;
+    padding: 0%;
+    margin: 0;
+    top: 0%;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    transition: 200ms;
+    transform: scale(1,1);
+
+    opacity: 0;
+    visibility: hidden;
+}
+.modal-show{
+    opacity: 1;
+    visibility: visible;
+}
+.modal-content{
+    margin-left: 10%;
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(175, 98, 190);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.479);
+    display: flex;
+
+
+}
+span{
+    font-size: xxx-large;
+
+    color: rgb(91, 38, 141);
+    
+    
+}
+span:hover{
+    cursor: pointer;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    margin-left: 10px;
+}
+.close{
+    width: 100%;
+    height: 50%;
+}
+.modal-img{
+   
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.imgIna{
+    width: 100%;
+    height: 100%;
+   
+}
+.cadastrar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+.cadastro-inputs{
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+}
+.button-cadastro{
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.inicio{
+    font-size: x-large;
+
+
+    border: 0;
+    background-color: rgba(32, 0, 36, 0);
+    color: white;
+   
+}
+.inicio:hover{
+    cursor: pointer;
+    background: rgba(170, 30, 170, 0.288);
+    border-radius: 20px;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+.sobre{
+    width: 10%;
+    height: 100%;
+    margin-left: 80%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    height: 7%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.imagem{
+    width: 50%;
+    height: 100%;
+}
+.mid{
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+}
+.tako{
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+.login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bg{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(197, 108, 214, 0.555);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.479);
+}
+img{
+    height: 80%;
+    width: 80%;
+    
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+h2,h1,h3{
+    color: rgb(58, 25, 71);
+    font-family: 'Trebuchet MS';
+}
+input{
+    text-align: center;
+    width: 40%;
+    height: 6%;
+    border-radius: 10px;
+}
+.logar{
+    border-radius: 10px;
+    width: 40%;
+    height: 8%;
+}
+.logar:hover{
+    cursor: pointer;
+}
+.cadastro{
+    
+    border: 0cm;
+    background-color: rgba(32, 0, 36, 0);
+    font-size: larger;
+    color: rgb(58, 25, 71);
+    font-family: 'Trebuchet MS';
+}
+.cadastro:hover{
+    cursor: pointer;
+}
+
