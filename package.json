@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "portifolio",
+  "description": "��#\u0000 \u0000P\u0000o\u0000r\u0000t\u0000i\u0000f\u0000o\u0000l\u0000i\u0000o\u0000\r\u0000 \u0000a\u0000 \u0000v\u0000a\u0000c\u0000a\u0000 \u0000c\u0000u\u0000i\u0000d\u0000a\u0000 \u0000d\u0000o\u0000 \u0000c\u0000o\u0000c\u0000o\u0000 \u0000a\u0000",
+  "version": "1.0.0",
+  "main": "Portifolio.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiqsassi/Portifolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guiqsassi/Portifolio/issues"
+  },
+  "homepage": "https://github.com/guiqsassi/Portifolio#readme"
+}
