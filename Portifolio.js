@@ -1,12 +1,12 @@
 function ShowModal(){
-    let cu = document.getElementById("modal")
-    cu.classList.add("modal-show")
+    let modal = document.getElementById("modal")
+    modal.classList.add("modal-show")
 
    
 }
 function HideModal(){
-    let cu = document.getElementById("modal")
-    cu.classList.remove("modal-show")
+    let modal = document.getElementById("modal")
+    modal.classList.remove("modal-show")
 }
 
 let Username = document.getElementById("Username")
